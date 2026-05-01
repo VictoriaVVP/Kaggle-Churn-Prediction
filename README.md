@@ -78,8 +78,6 @@ Key steps:
 - random_state: 42
 - Accuracy: 0.85
 
----
-
 <img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
 
 ---
