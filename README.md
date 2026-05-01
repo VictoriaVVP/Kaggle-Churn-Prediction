@@ -38,16 +38,12 @@ Key steps:
 - Model training using Random Forest
 
 ---
-<img width="589" height="455" alt="image" src="https://github.com/user-attachments/assets/cb805416-dd89-40df-93a4-0810ae386bc6" />
+
+<img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
 <img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
 
 <img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
-
----
-
-<img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
-
 
 ---
 
