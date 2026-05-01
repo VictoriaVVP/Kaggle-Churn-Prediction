@@ -13,9 +13,12 @@ This project focuses on predicting customer churn, where the goal is to determin
 - Type: Tabular classification dataset
 - Target: `Exited` (0 = retained, 1 = churned)
 - Features include:
-  - Demographic information (Gender, Geography)
+  - Demographic information (Gender, Geography, Age)
   - Account information (Balance, Credit Score, Tenure)
-  - Behavioral features
+
+---
+
+<img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
 ---
 
@@ -38,11 +41,7 @@ Key steps:
 - Train/validation split
 - Model training using Random Forest
 
---- 
-
-<img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
-
---- 
+---
 
 ## Preprocessing
 - Removed irrelevant columns (ID, Surname, CustomerId)
