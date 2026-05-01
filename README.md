@@ -46,11 +46,24 @@ Key steps:
 <img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
 
 ---
+## Preprocessing
+- Removed irrelevant columns (ID, Surname, CustomerId)
+- Applied one-hot encoding to categorical variables
+- Ensured training and test sets had matching feature columns
+---
 
 ## Model
 - Algorithm: Random Forest Classifier
 - n_estimators: 300
 - random_state: 42
+
+---
+
+## Training
+- Model trained using scikit-learn
+- Train/validation split applied
+- No GPU required (CPU training)
+- Model trained using 300 estimators
 
 ---
 
@@ -61,6 +74,19 @@ The model was evaluated using:
 - Classification Report
 
 Validation performance showed that the model captures meaningful patterns in customer churn behavior.
+
+---
+
+## Conclusions
+Random Forest performed well for predicting customer churn. Features such as Geography and Gender were found to be important predictors. The model provides a strong baseline for this classification task.
+
+---
+
+## How to Reproduce Results
+1. Clone repository
+2. Install dependencies from requirements.txt
+3. Run notebook.ipynb step by step
+4. Train model and generate predictions
 
 ---
 
