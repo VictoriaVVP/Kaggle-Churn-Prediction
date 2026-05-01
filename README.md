@@ -18,6 +18,14 @@ This project focuses on predicting customer churn, where the goal is to determin
 
 ---
 
+## Data Size
+
+- Training set: 1,186,139 rows
+- Test set: 790,594 rows
+- Validation split: 70/15/15
+
+---
+
 <img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
 ---
@@ -48,6 +56,14 @@ Key steps:
 - Applied one-hot encoding to categorical variables
 - Ensured training and test sets had matching feature columns
 - Dataset is unbalanced
+
+---
+
+## Problem Formulation
+- Input: Customer demographic and account data
+- Output: Binary classification (0 = stay, 1 = churn)
+- Model: Random Forest Classifier
+- Objective: Minimize misclassification of churned customers
 
 ---
 
