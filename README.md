@@ -69,7 +69,7 @@ Key steps:
 - Output: Binary classification (0 = stay, 1 = churn)
 - Model: Random Forest Classifier
 - Objective: Predict the likelihood of customers churning their account.
-- 
+
 ---
 
 ## Model
@@ -81,7 +81,6 @@ Key steps:
 <img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
 
 ---
-
 
 ## Training
 - Model trained using scikit-learn
@@ -97,7 +96,7 @@ The model was evaluated using:
 - Confusion Matrix
 - Classification Report
 
-Classification performance showed that the model captures meaningful patterns in customer churn behavior.
+Classification performance showed that the model shows meaningful patterns in customer churn behavior.
 
 <img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
 
