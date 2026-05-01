@@ -1,5 +1,5 @@
 # Kaggle-Churn-Prediction
-Predict customer churn using machine learning (Random Forest on Kaggle Playground Series S4E1 dataset)
+Predict customer churn using machine learning (Random Forest on Bank Churn dataset)
 
 # Customer Churn Prediction (Kaggle Playground S4E1)
 
@@ -25,6 +25,9 @@ This project focuses on predicting customer churn, where the goal is to determin
 - Validation split: 70/15/15
 
 ---
+
+Age distribution stood out due to the distribution of Stayed and Exited by age. Age distribution shows a divergence in closing behavior between age groups. 
+
 
 <img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
@@ -71,6 +74,7 @@ Key steps:
 - Algorithm: Random Forest Classifier
 - n_estimators: 300
 - random_state: 42
+- Accuracy: 0.85
 
 ---
 
