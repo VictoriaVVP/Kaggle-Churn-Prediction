@@ -33,6 +33,10 @@ Age distribution stood out due to the distribution of Stayed and Exited by age. 
 
 <img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
+<img width="402" height="366" alt="image" src="https://github.com/user-attachments/assets/385d69ca-e400-4e6b-a8e6-8fc0ad7499e4" />
+
+<img width="402" height="366" alt="image" src="https://github.com/user-attachments/assets/38ecbcec-449f-406f-a039-1913ee2bfbea" />
+
 ---
 
 ## Summary of Work Done
