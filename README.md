@@ -16,6 +16,7 @@ This project focuses on predicting customer churn, where the goal is to determin
   - Demographic information (Gender, Geography)
   - Account information (Balance, Credit Score, Tenure)
   - Behavioral features
+
 ---
 
 ## Summary of Work Done
@@ -37,19 +38,18 @@ Key steps:
 - Train/validation split
 - Model training using Random Forest
 
----
+--- 
 
 <img width="562" height="431" alt="Screenshot 2026-05-01 at 10 46 49 AM" src="https://github.com/user-attachments/assets/b372d011-898c-4072-86be-0f090be406d6" />
 
-<img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
+--- 
 
-<img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
-
----
 ## Preprocessing
 - Removed irrelevant columns (ID, Surname, CustomerId)
 - Applied one-hot encoding to categorical variables
 - Ensured training and test sets had matching feature columns
+- Dataset is unbalanced
+
 ---
 
 ## Model
@@ -58,6 +58,13 @@ Key steps:
 - random_state: 42
 
 ---
+
+<img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
+
+<img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
+
+---
+
 
 ## Training
 - Model trained using scikit-learn
@@ -78,7 +85,7 @@ Validation performance showed that the model captures meaningful patterns in cus
 ---
 
 ## Conclusions
-Random Forest performed well for predicting customer churn. Features such as Geography and Gender were found to be important predictors. The model provides a strong baseline for this classification task.
+Random Forest performed well for predicting customer churn. Features such as age, estimated salary, and credit score. The model provides a strong baseline for this classification task.
 
 ---
 
