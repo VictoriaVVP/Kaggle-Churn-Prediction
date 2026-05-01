@@ -26,6 +26,8 @@ This project focuses on predicting customer churn, where the goal is to determin
 
 ---
 
+## EDA
+
 Age distribution stood out due to the distribution of Stayed and Exited by age. Age distribution shows a divergence in closing behavior between age groups. 
 
 
@@ -56,9 +58,9 @@ Key steps:
 
 ## Preprocessing
 - Removed irrelevant columns (ID, Surname, CustomerId)
-- Applied one-hot encoding to categorical variables
+- Applied one-hot encoding to categorical variables (Country, Gender)
 - Ensured training and test sets had matching feature columns
-- Dataset is unbalanced
+- Dataset is unbalanced (74% Stayed, 26% Exited)
 
 ---
 
@@ -66,8 +68,8 @@ Key steps:
 - Input: Customer demographic and account data
 - Output: Binary classification (0 = stay, 1 = churn)
 - Model: Random Forest Classifier
-- Objective: Minimize misclassification of churned customers
-
+- Objective: Predict the likelihood of customers churning their account.
+- 
 ---
 
 ## Model
@@ -79,8 +81,6 @@ Key steps:
 ---
 
 <img width="450" height="389" alt="Screenshot 2026-05-01 at 10 50 14 AM" src="https://github.com/user-attachments/assets/b16e5b97-62d5-4a26-996f-557e0375a9f4" />
-
-<img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
 
 ---
 
@@ -99,7 +99,9 @@ The model was evaluated using:
 - Confusion Matrix
 - Classification Report
 
-Validation performance showed that the model captures meaningful patterns in customer churn behavior.
+Classification performance showed that the model captures meaningful patterns in customer churn behavior.
+
+<img width="562" height="305" alt="Screenshot 2026-05-01 at 10 50 02 AM" src="https://github.com/user-attachments/assets/541fde8c-3149-4728-8657-7a217df2ce68" />
 
 ---
 
