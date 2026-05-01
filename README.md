@@ -1,15 +1,15 @@
 # Kaggle-Churn-Prediction
 Predict customer churn using machine learning (Random Forest on Bank Churn dataset)
 
-# Customer Churn Prediction (Kaggle Playground S4E1)
+# Customer Churn Prediction (Kaggle Bank Churn dataset)
 
 ## Project Overview
-This project focuses on predicting customer churn, where the goal is to determine whether a customer will continue using a service or exit the platform. This is a binary classification problem based on structured tabular data from the Kaggle Playground Series S4E1 competition.
+This project focuses on predicting customer churn, where the goal is to determine whether a customer will continue using a service or exit the platform. This is a binary classification problem based on structured tabular data from the Kaggle Binary Classification with a Bank Churn Dataset competition.
 
 ---
 
 ## Dataset
-- Source: Kaggle Playground Series S4E1
+- Source: Kaggle Binary Classification with a Bank Churn Dataset
 - Type: Tabular classification dataset
 - Target: `Exited` (0 = retained, 1 = churned)
 - Features include:
